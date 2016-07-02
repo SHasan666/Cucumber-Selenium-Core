@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="19.386436">
+<testcase classname="Home Page Test" name="Test profile and home button" time="17.788892">
+<system-out><![CDATA[Given I am logged in facebook with Mozilla..................................passed
+Then "profilelink" should be present........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Test" name="Test profile and home button 2" time="1.093173">
+<system-out><![CDATA[Given I am logged in facebook with Mozilla..................................passed
+Then "homelink" should be present...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Home Page Test" name="Test title" time="0.504371">
+<failure message="org.junit.ComparisonFailure: expected:&lt;[Google]&gt; but was:&lt;[(1) Facebook]&gt;&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:115)&#13;&#10;&#9;at org.junit.Assert.assertEquals(Assert.java:144)&#13;&#10;&#9;at com.facebook.stepDefination.HomePage_Step.title_should_be(HomePage_Step.java:20)&#13;&#10;&#9;at ✽.Then title should be &quot;Google&quot;(2HomePage.feature:19)&#13;&#10;"><![CDATA[Given I am logged in facebook with Mozilla..................................passed
+Then title should be "Google"...............................................failed
+
+StackTrace:
+org.junit.ComparisonFailure: expected:<[Google]> but was:<[(1) Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.facebook.stepDefination.HomePage_Step.title_should_be(HomePage_Step.java:20)
+	at ✽.Then title should be "Google"(2HomePage.feature:19)
+]]></failure>
+</testcase>
+</testsuite>

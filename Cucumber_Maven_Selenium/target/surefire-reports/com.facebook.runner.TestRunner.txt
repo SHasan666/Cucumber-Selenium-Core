@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: com.facebook.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 20.267 sec <<< FAILURE! - in com.facebook.runner.TestRunner
+Then title should be "Google"(Scenario: Test title)  Time elapsed: 0.004 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Google]> but was:<[(1) Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.facebook.stepDefination.HomePage_Step.title_should_be(HomePage_Step.java:20)
+	at ?.Then title should be "Google"(2HomePage.feature:19)
+
+Scenario: Test title  Time elapsed: 0.004 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Google]> but was:<[(1) Facebook]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.facebook.stepDefination.HomePage_Step.title_should_be(HomePage_Step.java:20)
+	at ?.Then title should be "Google"(2HomePage.feature:19)
+

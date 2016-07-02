@@ -1,0 +1,5 @@
+Runmode,Browser,username,password,ExpectedResult
+N,Mozilla,sakib@gmail.com,sakib@gmail.com,Fail
+N,Mozilla,zerin@gmail.com,sakib@gmail.com,Success
+Y,Mozilla,seleniumsakib@gmail.com,sakib1234,Success
+Y,Mozilla,seleniumsakib@gmail.com,sakib,Success
