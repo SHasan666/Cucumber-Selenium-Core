@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="CAT" parallel="classes">
+  <test name="All External" >
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test" />
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test" />
+    </classes>
+  </test>
+</suite>
+

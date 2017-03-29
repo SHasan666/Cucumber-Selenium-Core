@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CAT Automation]" parallel="tests">
+  <test name="FAS External Test">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test"/>
+    </classes>
+  </test> <!-- FAS External Test -->
+  <test name="IIG External Test">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test"/>
+    </classes>
+  </test> <!-- IIG External Test -->
+  <test name="FAS External Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.IIG_External_Test -->
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test">
+        <methods>
+          <include name="Portfolio" invocation-numbers="1"/>
+          <include name="Overview" invocation-numbers="1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.FAS_External_Test -->
+    </classes>
+  </test> <!-- FAS External Test(failed) -->
+  <test name="IIG External Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test">
+        <methods>
+          <include name="Portfolio" invocation-numbers="0 1"/>
+          <include name="Overview" invocation-numbers="1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.IIG_External_Test -->
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test">
+        <methods>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.FAS_External_Test -->
+    </classes>
+  </test> <!-- IIG External Test(failed) -->
+</suite> <!-- Failed suite [CAT Automation] -->

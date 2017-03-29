@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [CAT]" parallel="classes">
+  <test name="All External">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test"/>
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test"/>
+    </classes>
+  </test> <!-- All External -->
+  <test name="All External(failed)" parallel="classes">
+    <classes>
+      <class name="com.qtpselenium.hybrid.testcases.FAS_External_Test">
+        <methods>
+          <include name="Portfolio" invocation-numbers="1"/>
+          <include name="Overview" invocation-numbers="1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.FAS_External_Test -->
+      <class name="com.qtpselenium.hybrid.testcases.IIG_External_Test">
+        <methods>
+          <include name="Portfolio" invocation-numbers="1"/>
+          <include name="Overview" invocation-numbers="1"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- com.qtpselenium.hybrid.testcases.IIG_External_Test -->
+    </classes>
+  </test> <!-- All External(failed) -->
+</suite> <!-- Failed suite [CAT] -->

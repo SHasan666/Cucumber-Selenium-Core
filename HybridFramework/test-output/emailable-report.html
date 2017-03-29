@@ -1,0 +1,161 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">CAT Automation</th></tr><tr><td><a href="#t0">FAS External Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">18,445</td><td></td><td></td></tr><tr class="stripe"><td><a href="#t1">IIG External Test</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">3</td><td class="num">25,255</td><td></td><td></td></tr><tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num attn">5</th><th class="num">43,700</th><th colspan="2"></th></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">CAT Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">FAS External Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.qtpselenium.hybrid.testcases.FAS_External_Test</td><td><a href="#m0">Overview</a></td><td rowspan="1">1490552111723</td><td rowspan="1">1771</td></tr><tr class="failedeven"><td><a href="#m1">Portfolio</a></td><td rowspan="1">1490552115632</td><td rowspan="1">3713</td></tr><tr><th colspan="4">FAS External Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.qtpselenium.hybrid.testcases.FAS_External_Test</td><td><a href="#m2">Overview</a></td><td rowspan="1">1490552101045</td><td rowspan="1">10678</td></tr><tr class="passedeven"><td><a href="#m3">Portfolio</a></td><td rowspan="1">1490552113574</td><td rowspan="1">2058</td></tr></tbody><tbody id="t1"><tr><th colspan="4">IIG External Test &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.qtpselenium.hybrid.testcases.IIG_External_Test</td><td><a href="#m4">close</a></td><td rowspan="1">1490552125166</td><td rowspan="1">0</td></tr><tr><th colspan="4">IIG External Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">com.qtpselenium.hybrid.testcases.IIG_External_Test</td><td><a href="#m5">Overview</a></td><td rowspan="1">1490552119401</td><td rowspan="1">3638</td></tr><tr class="failedeven"><td><a href="#m6">Portfolio</a></td><td rowspan="2">1490552124141</td><td rowspan="2">1019</td></tr><tr class="failedeven"><td><a href="#m7">Portfolio</a></td></tr><tr><th colspan="4">IIG External Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.qtpselenium.hybrid.testcases.IIG_External_Test</td><td><a href="#m8">Overview</a></td><td rowspan="1">1490552101017</td><td rowspan="1">18382</td></tr></tbody></table><h2>FAS External Test</h2><h3 id="m0">com.qtpselenium.hybrid.testcases.FAS_External_Test#Overview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{CUSIP=Sign up for Faceboo, RunMode=Y, Pass=aassss, FundName=Log In, Fund_Number=selaaa@gmail.com, Ticker=Recover Your Accoun, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.FAS_External_Test.Overview(java.util.Hashtable,java.lang.reflect.Method)</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Ticker not matched. expected -&gt; Recover Your Accoun but actual -&gt; Recover Your Account
+CUSIP not matched. expected -&gt; Sign up for Faceboo but actual -&gt; Sign up for Facebook
+ expected [true] but found [false]
+	at com.qtpselenium.hybrid.testcases.FAS_External_Test.Overview(FAS_External_Test.java:65)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m1">com.qtpselenium.hybrid.testcases.FAS_External_Test#Portfolio</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{RunMode=Y, Pass=musi, FundName=Log In, Fund_Number=selaaa@gmail.com, Ticker=Recover Your Accoun, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.FAS_External_Test.Portfolio(java.util.Hashtable,java.lang.reflect.Method)</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Ticker not matched. expected -&gt; Recover Your Accoun but actual -&gt; Recover Your Account
+ expected [true] but found [false]
+	at com.qtpselenium.hybrid.testcases.FAS_External_Test.Portfolio(FAS_External_Test.java:96)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m2">com.qtpselenium.hybrid.testcases.FAS_External_Test#Overview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{CUSIP=Sign up for Facebook, RunMode=Y, Pass=12345, FundName=Log In, Fund_Number=tinamer@gmail.com, Ticker=Recover Your Account, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.FAS_External_Test.Overview(java.util.Hashtable,java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m3">com.qtpselenium.hybrid.testcases.FAS_External_Test#Portfolio</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{RunMode=Y, Pass=hahaha, FundName=Log In, Fund_Number=tinamer@gmail.com, Ticker=Recover Your Account, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.FAS_External_Test.Portfolio(java.util.Hashtable,java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h2>IIG External Test</h2><h3 id="m4">com.qtpselenium.hybrid.testcases.IIG_External_Test#close</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Sakib&apos;, ip: &apos;192.168.95.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: RemoteWebDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eae71ba-24d1-48f4-97eb-068a9dab3912
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:701)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:521)
+	at com.qtpselenium.hybrid.testcases.IIG_External_Test.close(IIG_External_Test.java:30)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 21 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 36 more
+... Removed 14 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m5">com.qtpselenium.hybrid.testcases.IIG_External_Test#Overview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{CUSIP=Sign up for Faceboo, RunMode=Y, Pass=aassss, FundName=Log In, Fund_Number=selaaa@gmail.com, Ticker=Recover Your Accoun, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.IIG_External_Test.Overview(java.util.Hashtable,java.lang.reflect.Method)</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: Not able to navigate expected [true] but found [false]
+	at com.qtpselenium.hybrid.util.Keywords.navigate(Keywords.java:172)
+	at com.qtpselenium.hybrid.util.Keywords.executeKeywords(Keywords.java:82)
+	at com.qtpselenium.hybrid.testcases.IIG_External_Test.Overview(IIG_External_Test.java:47)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m6">com.qtpselenium.hybrid.testcases.IIG_External_Test#Portfolio</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{RunMode=Y, Pass=musi, FundName=Log In, Fund_Number=selaaa@gmail.com, Ticker=Recover Your Accoun, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.IIG_External_Test.Portfolio(java.util.Hashtable,java.lang.reflect.Method)</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Sakib&apos;, ip: &apos;192.168.95.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eae71ba-24d1-48f4-97eb-068a9dab3912
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
+	at com.qtpselenium.hybrid.util.Keywords.openBrowser(Keywords.java:162)
+	at com.qtpselenium.hybrid.util.Keywords.executeKeywords(Keywords.java:76)
+	at com.qtpselenium.hybrid.testcases.IIG_External_Test.Portfolio(IIG_External_Test.java:78)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 25 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 40 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m7">com.qtpselenium.hybrid.testcases.IIG_External_Test#Portfolio</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{RunMode=Y, Pass=hahaha, FundName=Log In, Fund_Number=tinamer@gmail.com, Ticker=Recover Your Account, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.IIG_External_Test.Portfolio(java.util.Hashtable,java.lang.reflect.Method)</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b&apos;, time: &apos;2016-03-15 16:57:40&apos;
+System info: host: &apos;Sakib&apos;, ip: &apos;192.168.95.2&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_40&apos;
+Driver info: driver.version: FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=43.0.1, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 7eae71ba-24d1-48f4-97eb-068a9dab3912
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:665)
+	at org.openqa.selenium.firefox.FirefoxDriver.access$0(FirefoxDriver.java:1)
+	at org.openqa.selenium.firefox.FirefoxDriver$1$1.implicitlyWait(FirefoxDriver.java:244)
+	at com.qtpselenium.hybrid.util.Keywords.openBrowser(Keywords.java:162)
+	at com.qtpselenium.hybrid.util.Keywords.executeKeywords(Keywords.java:76)
+	at com.qtpselenium.hybrid.testcases.IIG_External_Test.Portfolio(IIG_External_Test.java:78)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7057 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:90)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:142)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:160)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:380)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:644)
+	... 25 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 40 more
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p><h3 id="m8">com.qtpselenium.hybrid.testcases.IIG_External_Test#Overview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>{CUSIP=Sign up for Facebook, RunMode=Y, Pass=12345, FundName=Log In, Fund_Number=tinamer@gmail.com, Ticker=Recover Your Account, Browser=Mozilla}</td><td>public void com.qtpselenium.hybrid.testcases.IIG_External_Test.Overview(java.util.Hashtable,java.lang.reflect.Method)</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>
